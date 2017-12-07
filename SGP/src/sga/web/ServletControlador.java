@@ -54,7 +54,7 @@ public class ServletControlador extends HttpServlet {
         // Controlador de tipo Usuario
         VentaController controlVenta;
 
-        // Revisamos los casos de uso del sistema SGA
+        // Revisamos los casos de uso del sistema SGP
         String accion = request.getParameter("accion");
         System.out.println("ServletControlador - accion: " + accion);
 
